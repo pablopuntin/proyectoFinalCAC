@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException; 
+import java.io.IOException;
 import java.sql.Date;
 
 @WebServlet("/registroOrador")
@@ -34,7 +34,7 @@ public class RegistroOrador extends HttpServlet {
         OradoresDAO oradoresDAO = new OradoresDAO();
         oradoresDAO.agregarOrador(orador);
 
-        // Redireccionar a la pÃ¡gina de visualizaciÃ³n de oradores
+        // Redireccionar a la página de visualización de oradores
         response.sendRedirect(request.getContextPath() + "/vistas/verOradores.jsp");
     }
 }

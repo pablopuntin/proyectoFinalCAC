@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionDB {
 
     private static final String URL = "jdbc:mysql://localhost:3306/integrador_cac";
-    private static final String USER = "pablop";
+    private static final String USER = "ppuntin";
     private static final String PASSWORD = "root";
 
 //    Bloque Estático (static {}):
